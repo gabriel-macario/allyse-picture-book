@@ -176,18 +176,20 @@ const App: React.FC = () => {
       </div>
 
       <div className="flex gap-4 mt-4">
-        <button
-          onClick={prevPage}
-          className="px-4 py-2 rounded-lg bg-white shadow hover:bg-pink-50"
-        >
-          ← Prev
-        </button>
-        <button
-          onClick={nextPage}
-          className="px-4 py-2 rounded-lg bg-white shadow hover:bg-pink-50"
-        >
-          Next →
-        </button>
+        {current !== 0 &&
+          <button
+            onClick={prevPage}
+            className="px-4 py-2 rounded-lg bg-white shadow hover:bg-pink-50"
+          >
+            ← Prev
+          </button>}
+        {current < pages.length - 1 &&
+          <button
+            onClick={nextPage}
+            className="px-4 py-2 rounded-lg bg-white shadow hover:bg-pink-50"
+          >
+            Next →
+          </button>}
       </div>
     </div>
   );

@@ -60,7 +60,7 @@ export const pageImageUrls = [
 ]
 
 export const pageTexts = [
-  'From face to face in a “Little” place',
+  'From face to face in a "Little" place',
   'To adventures in a sun-kissed space',
   'She showed him the most wondrous sights',
   'And all of the most dazzling city lights',

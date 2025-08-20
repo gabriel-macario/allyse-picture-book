@@ -73,7 +73,7 @@ export const pageTexts = [
   'Their silly moments are endless',
   'And their love together leaves him quite defenseless',
   `But if everything and everywhere and everyone should break;`,
-  `And when time and life march on and it feels like everything is at stake;`,
+  `And if time and life march on and it feels like everything is at stake;`,
   `He just wants to let her know...`,
   `that`,
   'he',
